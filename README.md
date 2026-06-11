@@ -31,6 +31,9 @@ from bootstrap_inject.dspy_teleprompter import BootstrapInjectTeleprompter
 compiled = BootstrapInjectTeleprompter(metric, k=3, max_pool=40).compile(student, trainset=trainset)
 ```
 
+See [docs/dspy.md](docs/dspy.md) for the full install/import/compile recipe
+and the offline smoke test shape used to validate the adapter wiring.
+
 ## The one idea
 
 DSPy's few-shot optimizers do two things: (1) **bootstrap** — run a teacher over
